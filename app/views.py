@@ -1,7 +1,7 @@
-from flask import Flask
+from flask import Flask 
 from flask_restful import Resource, Api
 from app.modules.map_distance.dist import distance 
-
+from app.modules.weather.get_weather_method import get_the_place
 
 
 app = Flask(__name__)
@@ -14,7 +14,17 @@ class Dist(Resource):
     	if key == 'd':
     		return distance(source, dest)
 
+
+
+
+class Wthr(Resource):
+    def get(self, key ,place):
+    	if key == 'w':
+    		return get_the_place(place)
+
 api.add_resource(Dist, '/<string:key>/<string:source>/<string:dest>')
+api.add_resource(Wthr, '/<string:key>/<string:place>')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
