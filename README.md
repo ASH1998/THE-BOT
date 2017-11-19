@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 
+||||||| merged common ancestors
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> afbc9746b9ed5599480cf0821d74bf1701048fad
 ![alt text][1.3]
 ![alt text][1.4]
  
@@ -144,12 +151,4 @@ Anyquery find us in
 [1.3]: https://img.shields.io/pypi/pyversions/goodreads.svg
 [1.4]: https://png.icons8.com/api/color/37/000000
 
-=======
-# THE-BOT
-A smart bot
-
-[![alt text][1.1]][1]
-
-[1.1]: https://png.icons8.com/slack/color/91/000000 (twitter icon with padding)
->>>>>>> master
 [1]: https://join.slack.com/t/wemakethebot/shared_invite/enQtMjc1NzY1NjM2MTE5LTg4Mzc2MGE3MTZlMDZhNTExOGFiOTQ1MDY5MDJkNzU2NWM1ZDRiOTdiYmM5NDQzY2EyODJkMzdmZmU2ZTU0NGM
