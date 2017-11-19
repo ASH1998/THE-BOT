@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 
-||||||| merged common ancestors
-<<<<<<< HEAD
-=======
-
-
->>>>>>> afbc9746b9ed5599480cf0821d74bf1701048fad
 ![alt text][1.3]
 ![alt text][1.4]
  
