@@ -1,5 +1,9 @@
-# THE-BOT [![THE-BOT](https://png.icons8.com/robot-2/color/100/000000)](https://github.com/ASH1998/THE-BOT) [![alt text][1.3]] 
-[![alt text][1.4]]
+ [![alt text][1.3]]
+ [![alt text][1.4]]
+ 
+
+# THE-BOT [![THE-BOT](https://png.icons8.com/robot-2/color/100/000000)](https://github.com/ASH1998/THE-BOT)
+
 =============
 
 The AI "THE-BOT" which is build using flask and Restful Api responsive, which gives you a Weather, Distance and Your_IP...(lot more coming up....)
