@@ -35,8 +35,8 @@ The instruction helps you install in local machine
 
 2. Create a project file 
 
-```~$ mkdir project
-~$ cd project ```
+```~$ mkdir project```
+```~$ cd project ```
 
 
 
@@ -50,8 +50,7 @@ The instruction helps you install in local machine
 4.Clone the THE-BOT project
 
 
-```
-~$ git clone https://github.com/ASH1998/THE-BOT```
+```~$ git clone https://github.com/ASH1998/THE-BOT```
 
 
 
@@ -75,15 +74,15 @@ The bot is running into 5000 local port
 
 The bot as multiple modules 
 
-	1. weather 
-		To run an weather app
+1. weather 
+To run an weather app
 
 		``` curl localhost/w/<city_name>```
-		The city_name could be any city 
+The city_name could be any city 
 
-	2. Distance 
-		This module finds an distance between two point 
-		To check the distance 
+2. Distance 
+This module finds an distance between two point 
+To check the distance 
 		``` curl localhost/d/<source>/<destination>```	 
 
 
@@ -130,14 +129,14 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Inspiration
 * etc
 
-##IRC
+## IRC
 
 
 Anyquery find us in 
 
 [![alt text][1.1]][1] 
 
-[![alt text][1.2]][2]
+![alt text][1.2]
 
 [1.1]: https://png.icons8.com/slack/color/91/000000
 [1.2]: https://png.icons8.com/stack-overflow/color/91/000000
