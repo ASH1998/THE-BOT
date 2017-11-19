@@ -48,7 +48,7 @@ The instruction helps you install in local machine
 
 ```~$ source The_Bot/bin/activate
 
-----> Now your into the vrtual envirment and proceed with installing dependencies 
+Now your into the vrtual envirment and proceed with installing dependencies 
 
 
 
