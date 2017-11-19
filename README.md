@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ![alt text][1.3]
 ![alt text][1.4]
  
