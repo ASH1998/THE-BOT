@@ -46,7 +46,7 @@ The instruction helps you install in local machine
 
 ```~$ virtualenv The_Bot```
 
-```~$ source The_Bot/bin/activate
+```~$ source The_Bot/bin/activate```
 
 Now your into the vrtual envirment and proceed with installing dependencies 
 
