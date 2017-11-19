@@ -1,5 +1,5 @@
- [![alt text][1.3]]
- [![alt text][1.4]]
+![alt text][1.3]
+![alt text][1.4]
  
 
 # THE-BOT [![THE-BOT](https://png.icons8.com/robot-2/color/100/000000)](https://github.com/ASH1998/THE-BOT)
