@@ -1,7 +1,4 @@
-flask
+Flask==0.12.2
 geopy
-flask_restful
-json
-math
-urllib2
-urllib
+flask-restful
+wikipedia

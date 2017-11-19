@@ -46,6 +46,11 @@ The instruction helps you install in local machine
 
 ```~$ virtualenv The_Bot```
 
+```~$ source The_Bot/bin/activate
+
+----> Now your into the vrtual envirment and proceed with installing dependencies 
+
+
 
 
 4.Clone the THE-BOT project
@@ -59,6 +64,10 @@ The instruction helps you install in local machine
 
 ```~$ cd THE-BOT```
 
+```(THE_BOT)THE-BOT~$ pip install -r requirements.txt ```
+
+
+Which intern download all Modules 
 
 
 6. Finally Run the app 
