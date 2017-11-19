@@ -1,7 +1,7 @@
-# THE-BOT [![THE-BOT](https://png.icons8.com/robot-2/color/100/000000)](https://github.com/ASH1998/THE-BOT)
+# THE-BOT [![THE-BOT](https://png.icons8.com/robot-2/color/100/000000)](https://github.com/ASH1998/THE-BOT) [![alt text][1.3]] [![alt text][1.4]]
 =============
 
-One Paragraph of project description goes here
+The AI "THE-BOT" which is build using flask and Restful Api responsive, which gives you a Weather, Distance and Your_IP...(lot more coming up....)
 
 ## Getting Started
 
@@ -9,8 +9,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+ - Requires python2.6+, or python3.0 +
+ - Required python packages: Flask,Flask-Restful, Requests , Geopy 
+ 
+ 
 ```
 Give examples
 ```
@@ -21,61 +23,95 @@ A step by step series of examples that tell you have to get a development env ru
 
 Say what the step will be
 
-```
-Give the example
-```
+The instruction helps you install in local machine
 
-And repeat
+1. Install Virtualenv (Virtual Environment)
 
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+~$ pip install virtualenv
 
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+2. Create a project file 
 
 ```
-Give an example
+~$ mkdir project
+~$ cd project 
 ```
+
+3. Create Virtual Environment 
+
+```
+~$ virtualenv The_Bot
+
+```
+
+4.Clone the THE-BOT project
+
+```
+~$ git clone https://github.com/ASH1998/THE-BOT
+```
+
+5. Change directory into "THE-BOT" file
+
+```
+~$ cd THE-BOT
+```
+6. Finally Run the app 
+
+```
+~$ python runserver.py
+
+
+The bot is running into 5000 local port 
+
+
+
+
+## Examples
+
+The bot as multiple modules 
+
+	1. weather 
+		To run an weather app
+
+		``` curl localhost/w/<city_name>```
+		The city_name could be any city 
+
+	2. Distance 
+		This module finds an distance between two point 
+		To check the distance 
+		``` curl localhost/d/<source>/<destination>	 
 
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Pull Requests
+
+We :heart: pull requests! We even :sparkling_heart: them if they contain well written commit messages!
+
+Please write the first line of your commit message in the following style:
+
+exercise-name: Change some things
+
+Please try to follow the The seven rules of a great Git commit message like to capitalize the subject line and use the imperative mood. If there are more details to add, put those into the body of the commit message.
+
+If you're interested, Tim Pope even has an entire blog post on good commit messages.
+
+If you're new to Git, take a look at this short guide.
+
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
@@ -88,9 +124,17 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * etc
 
 ##IRC
-[![alt text][1.1]][1] [![alt text][1.2]][2]
+
+
+Anyquery find us in 
+
+[![alt text][1.1]][1] 
+
+[![alt text][1.2]][2]
 
 [1.1]: https://png.icons8.com/slack/color/91/000000
 [1.2]: https://png.icons8.com/stack-overflow/color/91/000000
+[1.3]: https://img.shields.io/pypi/pyversions/goodreads.svg
+[1.4]: https://png.icons8.com/api/color/37/000000
 
 [1]: https://join.slack.com/t/wemakethebot/shared_invite/enQtMjc1NzY1NjM2MTE5LTg4Mzc2MGE3MTZlMDZhNTExOGFiOTQ1MDY5MDJkNzU2NWM1ZDRiOTdiYmM5NDQzY2EyODJkMzdmZmU2ZTU0NGM
