@@ -1,4 +1,5 @@
-# THE-BOT [![THE-BOT](https://png.icons8.com/robot-2/color/100/000000)](https://github.com/ASH1998/THE-BOT) [![alt text][1.3]] [![alt text][1.4]]
+# THE-BOT [![THE-BOT](https://png.icons8.com/robot-2/color/100/000000)](https://github.com/ASH1998/THE-BOT) [![alt text][1.3]] 
+[![alt text][1.4]]
 =============
 
 The AI "THE-BOT" which is build using flask and Restful Api responsive, which gives you a Weather, Distance and Your_IP...(lot more coming up....)
@@ -13,9 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
  - Required python packages: Flask,Flask-Restful, Requests , Geopy 
  
  
-```
-Give examples
-```
+
 
 ### Installing
 
@@ -27,39 +26,40 @@ The instruction helps you install in local machine
 
 1. Install Virtualenv (Virtual Environment)
 
-```
-~$ pip install virtualenv
+```~$ pip install virtualenv```
 
-```
+
 2. Create a project file 
 
-```
-~$ mkdir project
-~$ cd project 
-```
+```~$ mkdir project
+~$ cd project ```
+
+
 
 3. Create Virtual Environment 
 
-```
-~$ virtualenv The_Bot
 
-```
+```~$ virtualenv The_Bot```
+
+
 
 4.Clone the THE-BOT project
 
+
 ```
-~$ git clone https://github.com/ASH1998/THE-BOT
-```
+~$ git clone https://github.com/ASH1998/THE-BOT```
+
+
 
 5. Change directory into "THE-BOT" file
 
-```
-~$ cd THE-BOT
-```
+```~$ cd THE-BOT```
+
+
+
 6. Finally Run the app 
 
-```
-~$ python runserver.py
+```~$ python runserver.py```
 
 
 The bot is running into 5000 local port 
@@ -80,7 +80,10 @@ The bot as multiple modules
 	2. Distance 
 		This module finds an distance between two point 
 		To check the distance 
-		``` curl localhost/d/<source>/<destination>	 
+		``` curl localhost/d/<source>/<destination>```	 
+
+
+
 
 ## Deployment
 
