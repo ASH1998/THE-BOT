@@ -145,3 +145,4 @@ Anyquery find us in
 [1.3]: https://img.shields.io/pypi/pyversions/goodreads.svg
 [1.4]: https://png.icons8.com/api/color/37/000000
 
+[1]: https://join.slack.com/t/wemakethebot/shared_invite/enQtMjc1NzY1NjM2MTE5LTg4Mzc2MGE3MTZlMDZhNTExOGFiOTQ1MDY5MDJkNzU2NWM1ZDRiOTdiYmM5NDQzY2EyODJkMzdmZmU2ZTU0NGM
