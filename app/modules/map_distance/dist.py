@@ -1,4 +1,4 @@
-from math import cos, asin, sqrt
+import math
 from lat_lon import cal_lon_lat
 
 dst = {'Distance':''}
@@ -21,8 +21,8 @@ def distance1(origin, destination):
     lon1, lat1 = cal_lon_lat(origin)
     lon2, lat2 = cal_lon_lat(destination)
     p = 0.017453292519943295     #Pi/180
-    a = 0.5 - cos((lat2 - lat1) * p)/2 + cos(lat1 * p) * cos(lat2 * p) * (1 - cos((lon2 - lon1) * p)) / 2
-    return 12742 * asin(sqrt(a)) #2*R*asin..
+    a = 0.5 - math.cos((lat2 - lat1) * p)/2 + math.cos(lat1 * p) * math.cos(lat2 * p) * (1 - math.cos((lon2 - lon1) * p)) / 2
+    return 12742 * math.asin(math.sqrt(a)) #2*R*asin..
 
 
 
