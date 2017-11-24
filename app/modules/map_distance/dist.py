@@ -1,5 +1,8 @@
 import math
-from lat_lon import cal_lon_lat
+try:
+    from lat_lon import cal_lon_lat
+except ImportError:
+    from .lat_lon import cal_lon_lat
 
 dst = {'Distance':''}
 
@@ -26,7 +29,3 @@ def distance1(origin, destination):
 
 
 
-
-
-if __name__ == '__main__':
-	print distance1('dehli', 'Bangalore')

@@ -1,4 +1,4 @@
-from ywthr import Yweather_Index
+from .ywthr import Yweather_Index
 
 
 
