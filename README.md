@@ -93,12 +93,17 @@ The city_name could be any city
 
 2. Distance 
 This module finds an distance between two point 
+
 To check the distance 
-		``` curl http://127.0.0.1:5000/api/v1.0/d/<source>/<destination>```	 
+
+
+``` curl http://127.0.0.1:5000/api/v1.0/d/<source>/<destination>```	 
 
 
 3.For Wikipedia Search 
-``` curl http://127.0.0.1:5000/api/v1.0/wiki/<query>
+
+
+``` curl http://127.0.0.1:5000/api/v1.0/wiki/<query>```
 
 ## Deployment
 
