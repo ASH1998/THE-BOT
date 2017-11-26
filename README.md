@@ -13,6 +13,9 @@ The AI "THE-BOT" which is build using flask and Restful Api responsive, which gi
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+for more bleeding edge developement check out the ``` /test``` directory
+
+
 ### Prerequisites
 
  - Requires python2.6+, or python3.0 +
