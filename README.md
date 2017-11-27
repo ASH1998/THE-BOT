@@ -1,3 +1,4 @@
+
 ![alt text][1.3]
 ![alt text][1.4]
  
@@ -11,6 +12,9 @@ The AI "THE-BOT" which is build using flask and Restful Api responsive, which gi
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+for more bleeding edge developement check out the ``` /test``` directory
+
 
 ### Prerequisites
 
@@ -45,6 +49,11 @@ The instruction helps you install in local machine
 
 ```~$ virtualenv The_Bot```
 
+```~$ source The_Bot/bin/activate```
+
+Now your into the vrtual envirment and proceed with installing dependencies 
+
+
 
 
 4.Clone the THE-BOT project
@@ -58,6 +67,10 @@ The instruction helps you install in local machine
 
 ```~$ cd THE-BOT```
 
+```(THE_BOT)THE-BOT~$ pip install -r requirements.txt ```
+
+
+Which intern download all Modules 
 
 
 6. Finally Run the app 
@@ -77,16 +90,23 @@ The bot as multiple modules
 1. weather 
 To run an weather app
 
-		``` curl localhost/w/<city_name>```
+``` curl http://127.0.0.1:5000/api/v1.0/w/<city_name>```
+
 The city_name could be any city 
 
 2. Distance 
 This module finds an distance between two point 
+
 To check the distance 
-		``` curl localhost/d/<source>/<destination>```	 
 
 
+``` curl http://127.0.0.1:5000/api/v1.0/d/<source>/<destination>```	 
 
+
+3.For Wikipedia Search 
+
+
+``` curl http://127.0.0.1:5000/api/v1.0/wiki/<query>```
 
 ## Deployment
 
@@ -95,7 +115,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Pull Requests
 

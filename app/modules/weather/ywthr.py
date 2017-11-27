@@ -19,7 +19,7 @@ class Yweather_Index(object):
 		self.yql_query = "select * from weather.forecast where woeid in (select woeid from geo.places(1) where text='{}')".format(place)
 		
 		yql_url = self.baseurl + urllib.urlencode({'q':self.yql_query}) + "&format=json"
-		result = urllib2.urlopen(yql_url).read()
+		result = urllib.urlopen(yql_url).read()
 		data = json.loads(result)
 		return self.parse_result(data)
 	
@@ -37,5 +37,4 @@ class Yweather_Index(object):
 
 if __name__ == "__main__":
 	d = Yweather_Index()
-
-	print d.get_weather('Hubli')		
+	print (d.get_weather('Hubli'))		
