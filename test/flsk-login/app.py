@@ -14,6 +14,7 @@ from flask_login import LoginManager, UserMixin, login_user, login_required, log
 app = Flask(__name__)
 app.config['MONGOALCHEMY_DATABASE'] = 'login'
 app.config['MONGOALCHEMY_CONNECTION_STRING'] = 'mongodb://mock:root12@ds121726.mlab.com:21726/login'
+app.secret_key = 's3cr3t'
 #app.config['SECRET_KEY'] = 'Thisissupposedtobesecret!'
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////mnt/c/Users/antho/Documents/login-example/database.db'
 
@@ -58,7 +59,7 @@ def login():
     form = LoginForm()
 
     if form.validate_on_submit():
-        user = User.query.filter(username.username == form.username.data).first()
+        user = User.query.filter(User.username == form.username.data).first()
         if user:
             if check_password_hash(user.password, form.password.data):
                 login_user(user, remember=form.remember.data)
@@ -76,8 +77,9 @@ def signup():
     if form.validate_on_submit():
         hashed_password = generate_password_hash(form.password.data, method='sha256')
         new_user = User(username=form.username.data, email=form.email.data, password=hashed_password)
-        db.new_user
-        db.save()
+        new_user.save()
+        #db.new_user
+        #db.save()
 
         return '<h1>New user has been created!</h1>'
         #return '<h1>' + form.username.data + ' ' + form.email.data + ' ' + form.password.data + '</h1>'
